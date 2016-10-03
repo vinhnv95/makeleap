@@ -33,19 +33,46 @@ echo SideNav::widget([
                 [
                     'label' => Html::img('@web/image/documents.png')
                         . '  Orders'
-                        . '<span class="pull-right glyphicon glyphicon-plus-sign"></span>',
+                        . Html::beginForm(['#'], 'post', ['class' => 'pull-right'])
+                        . Html::submitButton(
+                            '',
+                            [
+                                'class' => 'plus-btn glyphicon glyphicon-plus-sign',
+                                'title' => 'To sent',
+                            ]
+                        )
+                        . Html::endForm()
+                    ,
                     'url' => '#',
                 ],
                 [
                     'label' => Html::img('@web/image/documents.png')
                         . '  Invoices'
-                        . '<span class="pull-right glyphicon glyphicon-plus-sign"></span>',
+                        . Html::beginForm(['#'], 'post', ['class' => 'pull-right'])
+                        . Html::submitButton(
+                            '',
+                            [
+                                'class' => 'plus-btn glyphicon glyphicon-plus-sign',
+                                'title' => 'Create Invoice',
+                            ]
+                        )
+                        . Html::endForm()
+                    ,
                     'url' => '#',
                 ],
                 [
                     'label' => Html::img('@web/image/documents.png')
                         . '  Receipts'
-                        . '<span class="pull-right glyphicon glyphicon-plus-sign"></span>',
+                        . Html::beginForm(['#'], 'post', ['class' => 'pull-right'])
+                        . Html::submitButton(
+                            '',
+                            [
+                                'class' => 'plus-btn glyphicon glyphicon-plus-sign',
+                                'title' => 'To sent',
+                            ]
+                        )
+                        . Html::endForm()
+                    ,
                     'url' => '#',
                 ],
 
@@ -56,19 +83,46 @@ echo SideNav::widget([
         [
             'label' => Html::img('@web/image/catalog.png')
                 . '  Line Item Catalog'
-                . '<span class="pull-right glyphicon glyphicon-plus-sign"></span>',
+                . Html::beginForm(['#'], 'post', ['class' => 'pull-right'])
+                . Html::submitButton(
+                    '',
+                    [
+                        'class' => 'plus-btn glyphicon glyphicon-plus-sign',
+                        'title' => 'To sent',
+                    ]
+                )
+                . Html::endForm()
+            ,
             'url' => '#',
         ],
         [
             'label' => Html::img('@web/image/client.png')
                 . '  Clients'
-                . '<span class="pull-right glyphicon glyphicon-plus-sign"></span>',
+                . Html::beginForm(['#'], 'post', ['class' => 'pull-right'])
+                . Html::submitButton(
+                    '',
+                    [
+                        'class' => 'plus-btn glyphicon glyphicon-plus-sign',
+                        'title' => 'Create Client',
+                    ]
+                )
+                . Html::endForm()
+            ,
             'url' => '#',
         ],
         [
             'label' => Html::img('@web/image/team.png')
                 . '  Team'
-                . '<span class="pull-right glyphicon glyphicon-plus-sign"></span>',
+                . Html::beginForm(['#'], 'post', ['class' => 'pull-right'])
+                . Html::submitButton(
+                    '',
+                    [
+                        'class' => 'plus-btn glyphicon glyphicon-plus-sign',
+                        'title' => 'Create Team Member',
+                    ]
+                )
+                . Html::endForm()
+            ,
             'url' => '#',
         ],
 

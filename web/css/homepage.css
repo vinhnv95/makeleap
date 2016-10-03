@@ -72,6 +72,11 @@ body {
     padding-left: 5px;
     padding-right: 5px;
 }
+.plus-btn {
+    border:none;
+    color: #3e8f3e;
+    background-color: transparent;
+}
 .footer {
     height: 60px;
     border-top: 1px solid #ddd;
