@@ -14,14 +14,15 @@ echo SideNav::widget([
     'heading' => '<span class="glyphicon glyphicon-calendar"></span>' . Yii::$app->formatter->asDate('now', 'long'),
     'items' => [
         [
-            'label' => 'Invoice Manager '
-                        .'<span class="pull-right widget-number" title="To send">0</span>',
+            'label' => 'Invoice Manager 
+                        <span class="pull-right widget-number" title="To send">0</span>',
             'url' => '#'
         ],
         [
-            'label' => 'Sending List'
-                        . '<span class="pull-right widget-number" title="Outbox">0</span>'
-                        . '<span class="pull-right widget-number" style="border-right: 1px solid grey;" title="Drafts">0</span>    ',
+            'label' => 'Sending List
+                        <span class="pull-right widget-number" title="Outbox">0</span>
+                        <span class="pull-right widget-number" style="border-right: 1px solid grey;" title="Drafts">0</span>    
+                        ',
             'url' => '#',
         ],
         ['label' => 'Payment Manager', 'url' => '#'],

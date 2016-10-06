@@ -21,7 +21,9 @@ body {
     min-height: 100%;
     height: auto;
     margin: 0;
+    padding:0;
     width: 100%;
+    position: relative;
 }
 .my-navbar {
     background-color: #d1e6d1;
@@ -61,7 +63,8 @@ body {
     background-color: white;
 }
 .sidebar {
-    width: 22%;
+    width: 20%;
+    margin: 0;
 }
 .sidebar li a{
     color: #5e5e5e  ;
@@ -79,6 +82,18 @@ body {
 }
 .icon-image {
     margin-bottom: 5px;
+}
+.my-container {
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+.my-chart {
+    border: 1px solid darkgray;
+    border-radius: 5px;
 }
 .footer {
     height: 60px;
