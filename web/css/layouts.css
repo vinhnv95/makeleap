@@ -33,11 +33,12 @@
     display: block;
 }
 .logo {
-    width: 780px;
-    height:132px;
-    margin-left: 250px;
+    width: 258px;
+    height:45px;
+    margin-left: 550px;
+    margin-top: 50px;
     background-color: #00aa00;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .content {
@@ -87,6 +88,49 @@
     border-color: #faebcc;
     border: 1px solid transparent;
 }
+
 .create-form {
+    background: #f7f7f7;
+    border: 4px solid #fff;
     width: 1178px;
+    height: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.create-content {
+    margin: 30px 0;
+    width: auto;
+    overflow: hidden;
+}
+.create-content-right {
+    width: 60%;
+    border-left: 1px solid #e0e5df;
+    margin-left: 40%;
+    margin-top: -35%;
+    padding-left: 40px;
+}
+.create-content-left{
+    width: 40%;
+    padding-right: 40px;
+}
+#header-form-create
+{
+    margin-left: 20px;
+}
+.create-content-left span {
+    margin-left: 20px;
+}
+.create-content-left .btn {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #47c247;
+    border-color: #37a437;
+    color: #fff;
+}
+.create-content-left .btn:hover {
+    color: #333;
+}
+.add-row {
+    display: inline-block;
 }
