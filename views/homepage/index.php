@@ -5,7 +5,5 @@ $this->title = 'My Yii Application';
 <div>
 
 
-    <?php
-    echo $this->render('sidebar');
-    ?>
+
 </div>

@@ -89,6 +89,7 @@ HomePageAsset::register($this);
     NavBar::end();
     ?>
     <? echo $this->render('menu');?>
+    <? echo $this->render('sidebar'); ?>
     <div class="container">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
