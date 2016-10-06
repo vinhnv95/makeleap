@@ -53,7 +53,8 @@ LoginAsset::register($this);
 <div >
 <!--    <a href="https://www.makeleaps.com/en/"><img class="img-header" src="web/images/makeleaps_logo.jpg">-->
         <!-- <img class="logo" src="web/images/makeleaps_logo.jpg"> -->
-        <img class="logo" src="/project/web/images/makeleaps_logo.jpg" >
+        <!-- <img class="logo" src="/q   web/images/makeleaps_logo.jpg" > -->
+        <?=Html::img('@web/images/makeleaps_logo.jpg',['class'=>'logo']);?>
 </div>
 <?php
     $this->beginBody();
