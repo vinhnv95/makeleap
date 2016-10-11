@@ -24,6 +24,7 @@ body {
     padding:0;
     width: 100%;
     position: relative;
+    overflow: scroll;
 }
 .my-navbar {
     background-color: #d1e6d1;
@@ -35,6 +36,7 @@ body {
     /*padding: 70px 15px 20px;*/
     margin: 0;
     padding: 0;
+
 }
 #menu {
     margin-top:4%;
@@ -89,7 +91,7 @@ body {
     padding-right: 5%;
     position: absolute;
     left: 20%;
-    top: 10%;
+    top: 13%;
 }
 .my-chart {
     border: 1px solid darkgray;

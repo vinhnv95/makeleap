@@ -1,8 +1,19 @@
 <?php
 /* @var $this yii\web\View */
 $this->title = 'My Yii Application';
+use yii\helpers\Html;
 use miloschuman\highcharts\Highcharts;
 ?>
+<?
+    $chartTitle = "Top Clients";
+    $year = date("Y");
+    print "<h2>$chartTitle  "
+        . Html::button($year, ['class' => 'btn btn-default active btn-xs'])
+        . "</h2>";
+?>
+
+
+
 <div class="my-chart">
 
     <?
@@ -16,7 +27,6 @@ use miloschuman\highcharts\Highcharts;
                     'stacking' => 'normal',
                 ]
             ],
-            'title' => ['text' => 'Top Client'],
             'xAxis' => [
                 'categories' => ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
             ],
@@ -35,3 +45,8 @@ use miloschuman\highcharts\Highcharts;
     ]);
     ?>
 </div>
+<?= Html::button('Top Clients', ['class' => 'btn btn-default']);?>
+<?= Html::button('Paid/Unpaid', ['class' => 'btn btn-default']);?>
+<?= Html::button('Year over Year', ['class' => 'btn btn-default']);?>
+
+
