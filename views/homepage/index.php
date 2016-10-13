@@ -4,7 +4,7 @@ $this->title = 'My Yii Application';
 use yii\helpers\Html;
 use miloschuman\highcharts\Highcharts;
 ?>
-<?
+<?php
     $chartTitle = "Top Clients";
     $year = date("Y");
     print "<h2>$chartTitle  "
@@ -16,7 +16,7 @@ use miloschuman\highcharts\Highcharts;
 
 <div class="my-chart">
 
-    <?
+    <?php
     echo Highcharts::widget([
         'options' => [
             'chart' => [
